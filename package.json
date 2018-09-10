@@ -1,0 +1,23 @@
+{
+  "name": "fb-x",
+  "version": "0.0.1",
+  "description": "Flashback Extended - The intended flashback experience.",
+  "scripts": {
+    "build": "webpack --mode development",
+    "watch": "webpack --watch --mode development"
+  },
+  "author": "Max Byrde",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "0.0.72",
+    "@types/jquery": "^3.3.6",
+    "css-loader": "^1.0.0",
+    "jquery": "^3.3.1",
+    "style-loader": "^0.23.0",
+    "ts-loader": "^5.1.0",
+    "typescript": "^3.0.3",
+    "webpack-cli": "^2.1.5",
+    "webpack": "^4.17.2"
+  },
+  "dependencies": {}
+}
